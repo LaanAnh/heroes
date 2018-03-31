@@ -1,0 +1,40 @@
+
+<!-- Material form contact -->
+<form>
+        <p class="h4 text-center mb-4">{{ title }}</p>
+    
+        <!-- Material input text -->
+        <div class="md-form">
+            <i class="fa fa-user prefix grey-text"></i>
+            <input type="text" [(ngModel)]="data.name" name="name" id="materialFormContactNameEx" class="form-control">
+            <label for="materialFormContactNameEx">Your name</label>
+        </div>
+    
+        <!-- Material input email -->
+        <div class="md-form">
+            <i class="fa fa-envelope prefix grey-text"></i>
+            <input type="email" [(ngModel)]="data.email" name="email" id="materialFormContactEmailEx" class="form-control">
+            <label for="materialFormContactEmailEx">Your email</label>
+        </div>
+        
+        <!-- Material input subject -->
+        <div class="md-form">
+            <i class="fa fa-tag prefix grey-text"></i>
+            <input type="text" [(ngModel)]="data.subject" name="subject" id="materialFormContactSubjectEx" class="form-control">
+            <label for="materialFormContactSubjectEx">Subject</label>
+        </div>
+        
+        <!-- Material textarea message -->
+        <div class="md-form">
+            <i class="fa fa-pencil prefix grey-text"></i>
+            <textarea type="text" [(ngModel)]="data.mess" name="mess" id="materialFormContactMessageEx" class="form-control md-textarea" rows="3"></textarea>
+            <label for="materialFormContactMessageEx">Your message</label>
+        </div>
+    
+        <div class="text-center mt-4">
+            <button (click)="onClick()" class="btn btn-outline-secondary" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
+        </div>
+    </form>
+    <!-- Material form contact -->
+                          
+                      
