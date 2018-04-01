@@ -9,14 +9,18 @@ import{ DataService } from '../data.service';
 export class DetailComponent implements OnInit {
   
   flowerList : object [];
+  title ="Hoa ban chay";
   constructor( private messageService: MessageService, private dataService: DataService) { }
 
   ngOnInit() {
-     this.flowerList = this.dataService.getList();
+
+    this.dataService.getList("banchay").subscribe(res => {//console.log("Data", res);
+    this.flowerList =<object []>res;});
+    //  this.flowerList = this.dataService.getList();
   }
 
-  onDetail(flowerName:string) {
+  onDetail(flowerList:string) {
     // alert("Selected: " + flowerName);
-    this.messageService.showMessage(flowerName);
+    this.messageService.showMessage(flowerList);
   }
 }

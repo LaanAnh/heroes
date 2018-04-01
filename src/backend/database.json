@@ -1,0 +1,116 @@
+{"products" : [
+    {
+        "id": 1,
+        "type": "new",
+        "name": "hoa sen",
+        "img": "assets/images1.jpg",
+        "description": "hoa sen cũng trở thành một loài hoa tặng được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 2,
+        "type": "banchay",
+        "name": "hoa hong",
+        "img": "assets/images2.jpg",
+        "description": "hoa sen cũng trở thành một loài hoa tặng được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 3,
+        "type": "new",
+        "name": "hoa tulip",
+        "img": "assets/images3.jpg",
+        "description": "hoa sen cũng trở thành một loài hoa tặng được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 4,
+        "type": "hoatuoi",
+        "name": "hoa sen",
+        "img": "assets/images1.jpg",
+        "description": "hoa sen cũng trở thành một loài hoa tặng được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 5,
+        "type": "hoatuoi",
+        "name": "Hoa tuoi",
+        "img": "assets/images4.jpg",
+        "description": "hoa sen cũng trở thành một loài hoa tặng được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 6,
+        "type": "new",
+        "name": "hoa tuoi",
+        "img": "assets/images5.jpg",
+        "description": "loài hoa được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 7,
+        "type": "banchay",
+        "name": "Cam chuong",
+        "img": "assets/images6.jpg",
+        "description": "loài hoa được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 8,
+        "type": "hoachau",
+        "name": "Loai 1",
+        "img": "assets/hoachau1.jpg",
+        "description": "loài hoa được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 9,
+        "type": "hoachau",
+        "name": "Loai 2",
+        "img": "assets/hoachau2.jpg",
+        "description": "loài hoa được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 10,
+        "type": "sale",
+        "name": "hoa hong",
+        "img": "assets/images2.jpg",
+        "description": "loài hoa được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 11,
+        "type": "sale",
+        "name": "Bo hoa",
+        "img": "assets/images7.jpg",
+        "description": "loài hoa được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 12,
+        "type": "sale",
+        "name": "Hoa Chau 2",
+        "img": "assets/hoachau2.jpg",
+        "description": "loài hoa được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 13,
+        "type": "sale",
+        "name": "hoa hong",
+        "img": "assets/images4.jpg",
+        "description": "loài hoa được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    },
+    {
+        "id": 14,
+        "type": "hoatuoi",
+        "name": "Hoa tuoi",
+        "img": "assets/images6.jpg",
+        "description": "loài hoa được yêu thích bởi những ý nghĩa biểu đạt của nó..."
+    
+    }
+
+
+]}

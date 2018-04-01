@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 import { AppComponent } from './app.component';
@@ -15,6 +16,9 @@ import { ContactComponent } from './contact/contact.component';
 import { NewComponent } from './new/new.component';
 import { MessageService } from './message.service';
 import { DataService } from './data.service';
+import { HoatuoiComponent } from './hoatuoi/hoatuoi.component';
+import { HoachauComponent } from './hoachau/hoachau.component';
+import { SaleComponent } from './sale/sale.component';
 
 @NgModule({
   declarations: [
@@ -26,12 +30,16 @@ import { DataService } from './data.service';
     DetailComponent,
     FlowerComponent,
     ContactComponent,
-    NewComponent
+    NewComponent,
+    HoatuoiComponent,
+    HoachauComponent,
+    SaleComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
  
   providers: [ MessageService, DataService ],
